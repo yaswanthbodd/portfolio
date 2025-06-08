@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components{
+    .navbar-li{
+        @apply cursor-pointer focus:text-yellow-400 focus:border-b-2 hover:text-red-500 hover:border-b-2 pb-2 hover:border-b-red-500 focus:border-b-amber-200
+    }
+}
