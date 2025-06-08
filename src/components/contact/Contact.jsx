@@ -5,22 +5,36 @@ import { IoLogoWhatsapp } from "react-icons/io5"
 
 export const Contact = ()=>{
     return(
-        <div className="mt-36">
-            <h1 className="text-5xl text-center text-white">Contact Me</h1>
+        <div className="small:mt-20 mt-36">
+            <h1 className="text-5xl text-center text-white small:text-3xl">Contact Me</h1>
                 <section className="text-white body-font">
-                    <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
+                    <div className="container small:py-12 lg:px-12 px-5 py-24 mx-auto flex flex-wrap items-center">
                         <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
                             <h1 className="title-font font-medium text-3xl text-gray-200">Get In Touch</h1>
                             <p className="leading-relaxed mt-4">
                                 <div>
-                                    <div className="flex lg:space-x-4 space-x-2">
-                                        <div className="border-2 border-green-300 p-3 rounded-full cursor-pointer"><BsLinkedin className="size-8 text-blue-600"/></div>
-                                        <div className="border-2 border-green-300 p-3 rounded-full cursor-pointer"><FaGithub className="size-8 text-white"/></div>
-                                        <div className="border-2 border-green-300 p-3 rounded-full cursor-pointer"><FaSquareXTwitter className="size-8 text-black bg-white"/></div>
-                                        <div className="border-2 border-green-300 bg-green-600 p-3 rounded-full cursor-pointer"><IoLogoWhatsapp className="size-8 text-white"/></div>
-                                        <div className="border-2 border-green-300 p-3 rounded-full cursor-pointer"><FaInstagram  className="size-8 gradient bg-gradient-to-tr from-violet-500 to-pink-700 text-white rounded-md"/></div>
-                                        
-                                    </div>
+                                    <div className="py-5">
+                                        <div className="flex space-x-3 items-center">
+                                            <div className="hidden small:block w-[1px] h-16 bg-amber-200 mr-3"></div>
+                                                <div className="flex flex-wrap gap-2 small:gap-1">
+                                                    <div className="border-2 border-green-300 p-2 small:p-1.5 rounded-full cursor-pointer">
+                                                        <BsLinkedin className="text-blue-600 text-2xl small:text-xl" />
+                                                    </div>
+                                                    <div className="border-2 border-green-300 p-2 small:p-1.5 rounded-full cursor-pointer">
+                                                        <FaGithub className="text-white text-2xl small:text-xl" />
+                                                    </div>
+                                                    <div className="border-2 border-green-300 p-2 small:p-1.5 rounded-full cursor-pointer">
+                                                        <FaSquareXTwitter className="text-black bg-white text-2xl small:text-xl rounded-full" />
+                                                    </div>
+                                                    <div className="border-2 border-green-300 bg-green-600 p-2 small:p-1.5 rounded-full cursor-pointer">
+                                                        <IoLogoWhatsapp className="text-white text-2xl small:text-xl" />
+                                                    </div>
+                                                    <div className="border-2 border-green-300 p-2 small:p-1.5 rounded-full cursor-pointer">
+                                                        <FaInstagram className="bg-gradient-to-tr from-violet-500 to-pink-700 text-white text-2xl small:text-xl rounded-md" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     <p className="mt-2">Mail : bodduyaswanth09@gmail.com</p>
                                 </div>
                             </p>
@@ -41,7 +55,7 @@ export const Contact = ()=>{
                     </div>
                 </section>
 
-                <footer className="text-center text-white text-5xl pb-10">
+                <footer className="text-center text-white text-5xl pb-10 small:text-2xl">
                     "Thanks For Scrolling ... hahaha !!!"
                 </footer>
         </div>

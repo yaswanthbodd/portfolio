@@ -7,7 +7,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 export const MySkills = () => {
     return (
         <div className="container mx-auto">
-            <h1 className="text-center text-6xl text-white mt-36 pb-8 font-serif">My Skills</h1>
+            <h1 className="text-center md:text-6xl mt-36 pb-8 font-serif small:text-3xl bg-gradient-to-r from-yellow-400 to-pink-500 bg-clip-text text-transparent">My Skills</h1>
             <div className="flex flex-wrap justify-center gap-6 px-4">
                 {/* Java */}
                 <div className="bg-gray-700 w-52 h-52 rounded-2xl flex flex-col justify-center items-center">
